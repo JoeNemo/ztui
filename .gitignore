@@ -1,0 +1,12 @@
+*.o
+*.x
+*.dbg
+*.lst
+
+# Built binaries
+nczst
+nczda
+nczlog
+nczps
+nczdisp
+nctso

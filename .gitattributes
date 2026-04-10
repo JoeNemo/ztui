@@ -1,0 +1,6 @@
+# z/OS: all text files stored as ISO-8859-1 in git, checked out as EBCDIC on z/OS
+*                git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+# git's own files must stay ASCII
+.gitattributes   git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+.gitignore       git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+README.md        git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1

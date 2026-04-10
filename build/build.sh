@@ -128,5 +128,8 @@ build_one nczdisp "${SRC}/nczdisp.c" "${COMMON}/c/zdisplay.c"
 # TSO Command Session
 build_one nctso "${SRC}/nctso.c" "${SRC}/tsopipe.c"
 
+# Memory Viewer
+build_one ncmem "${SRC}/ncmem.c"
+
 echo ""
 echo "All builds complete."
